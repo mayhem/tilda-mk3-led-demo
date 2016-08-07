@@ -13,7 +13,7 @@ pin = machine.Pin("PB13", machine.Pin.OUT)
 neo = pyb.Neopix(pin)
 
 # Set up two colors
-colors = [0xFF7700, 0xFF00FF]
+colors = [0xFF3300, 0xFF00FF]
 
 # Loop over both colors for 500ms each
 while True:
